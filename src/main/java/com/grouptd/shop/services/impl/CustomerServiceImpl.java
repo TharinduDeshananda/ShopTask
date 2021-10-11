@@ -23,11 +23,6 @@ import java.util.stream.Collectors;
 
 @Service
 public class CustomerServiceImpl implements CustomerService {
-    @Autowired
-    CustomerServiceImpl customerService;
-
-    @Autowired
-    CustomerOrderServiceImpl customerOrderService;
 
     @Autowired
     CustomerDao customerDao;

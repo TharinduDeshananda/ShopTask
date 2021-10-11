@@ -23,14 +23,6 @@ import org.springframework.stereotype.Service;
 
 @Service
 public class AuthenticationServiceImpl implements AuthenticationService {
-    @Autowired
-    CustomUserDao customUserDao;
-    @Autowired
-    AdminDao adminDao;
-    @Autowired
-    CashierDao cashierDao;
-    @Autowired
-    CustomerDao customerDao;
 
     @Autowired
     AuthenticationManager authenticationManager;
